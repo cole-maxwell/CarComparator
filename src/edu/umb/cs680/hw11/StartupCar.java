@@ -43,17 +43,17 @@ public class StartupCar
 			ranking++;	
 		}
 
-		for (Car carByPareto: cars) {
-			carByPareto.setDominationCount(cars);
-		}
-		Collections.sort(cars, new ParetoComparator());
-		System.out.println("--Pareto comparison--\n");
-		ranking = 1;
-		for (Car carByPareto: cars) {
-			System.out.println("#" + ranking);
-			System.out.println(carByPareto + "\n");
-			ranking++;	
-		}
+		// for (Car carByPareto: cars) {
+		// 	carByPareto.setDominationCount(cars);
+		// }
+		// Collections.sort(cars, new ParetoComparator());
+		// System.out.println("--Pareto comparison--\n");
+		// ranking = 1;
+		// for (Car carByPareto: cars) {
+		// 	System.out.println("#" + ranking);
+		// 	System.out.println(carByPareto + "\n");
+		// 	ranking++;	
+		// }
 	}
 }
 
