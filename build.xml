@@ -7,7 +7,7 @@
   in a shell. 
 -->
 
-<project name="hw11" basedir="."  default="clean">
+<project name="CarComparators" basedir="."  default="clean">
 
 	<property environment="env"/>
     <property name="src" location="src" />
